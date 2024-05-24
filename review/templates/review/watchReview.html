@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>振り返りデータベース確認</title>
+    </head>
+    <body>
+        <h1><p>投稿内容一覧</p></h1>
+        {% if chorus %}
+        <table class="table">
+            <thead>
+            <tr>
+                <th>名前</th>
+                <th>曲名</th>
+                <th>日付</th>
+            </tr>
+            </thead>
+        <tbody>
+            {% for ch in chorus %}
+            <tr>
+                <th>{{ ch.yourname }}</th>
+                <th>{{ ch.songname }}</th>
+                <th>{{ ch.created_at }}</th>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>まだなんもないよ～ん！</p>
+    {% endif %}
+    </body>
+</html>

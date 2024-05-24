@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>今日の振り返りフォーム</title>
+        <meta charset="'utf-8">
+    </head>
+    <body>
+        <h2>本日の振り返りについて</h2>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">提出</button>
+        </form>
+    </body>
+</html>
