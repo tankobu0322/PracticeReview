@@ -23,4 +23,12 @@ HTMLベースでフォームを入力させるなら楽かなぁと考えたか�
 投稿画面を開くと以下のような入力フォームが表示される  
 ![image](https://github.com/tankobu0322/PracticeReview/assets/170719141/12f58712-9084-448c-bce4-773a4f736c6a)  
 
+データベースには以下のようなレコードが追加される  
+![image](https://github.com/tankobu0322/PracticeReview/assets/170719141/1750ec8f-d718-41ff-bd9e-63c75f501722)  
+
+---
+### 今後実装する機能  
+* 外部キー, 複数テーブル定義  
+* ログイン認証  
+* bootstrapとbase.htmlで簡単に見た目を統一, 良いwebデザインを作りたい  
 
